@@ -3,3 +3,5 @@ data
 __pycache__
 datalake/
 .DS_Store
+exp.py
+
