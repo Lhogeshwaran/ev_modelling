@@ -11,6 +11,4 @@ df = pd.read_csv('data/ptc_24_hours_timeseries.csv', index_col=0, parse_dates=Tr
 
 # EDA
 df_codes = pd.DataFrame(df.groupby(df.index.year)['code'].agg(['nunique', 'count']))
-df.groupby(df.index.year)['code'].nunique()
-
-plt.plot()
+df_codes.plot(kind='bar', secondary_y='count', rot=90)
