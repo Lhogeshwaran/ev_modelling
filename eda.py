@@ -30,3 +30,7 @@ ax2.tick_params(axis='y', labelcolor=color)
 
 fig.tight_layout()  # otherwise the right y-label is slightly clipped
 plt.show()
+
+10 %% 2
+
+[*range(1,20,2)]  # Kristina's first line of code.
